@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: neapolitan
-  version: 24.8
+  version: "25.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/neapolitan-${{ version }}.tar.gz
-  sha256: ae45b2133bb15dfc48edbfb35f625b4c37d77d6586857cc51e45dd3932d88a01
+  sha256: e5f1692c6d5807143f48635e351f62f0921d491efa6de8906e9a5ca22104a877
 
 build:
   number: 0
